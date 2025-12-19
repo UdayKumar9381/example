@@ -18,7 +18,7 @@ from app.config import get_settings
 from app.database import init_db
 from app.routers import user_stories
 
-
+# new loadidihbvid
 # Load application settings
 settings = get_settings()
 

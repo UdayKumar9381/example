@@ -29,7 +29,7 @@ def create_user_story(
         file_size_bytes: Size of the file in bytes
         
     Returns:
-        The created UserStory object
+        The created UserStory object 
     """
     # Create new UserStory instance
     db_story = UserStory(
