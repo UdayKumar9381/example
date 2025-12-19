@@ -1,0 +1,25 @@
+# requirements.txt
+# FastAPI Backend Dependencies for User Story Management
+
+# Core Framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+
+# Database
+sqlalchemy==2.0.25
+pymysql==1.1.0
+cryptography==42.0.2
+
+# Data Validation
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# File Handling
+python-multipart==0.0.9
+aiofiles==23.2.1
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Development Tools (optional)
+httpx==0.26.0
